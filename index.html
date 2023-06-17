@@ -18,38 +18,49 @@
     />
   </head>
   <body>
-    <header class="background-header">
-      <div class="container header-container">
-        <div class="logo-navigation">
-          <a class="logotype-webstudio-header" href="#"
-            ><span class="logotype-web">Web</span>Studio</a
+    <header class="header-main">
+      <div class="container header-main__container">
+        <div class="header-main__logo-navigation">
+          <a class="header-main__logo" href="#"
+            ><span class="header-main__element">Web</span>Studio</a
           >
           <nav>
-            <ul class="dots navigation">
+            <ul class="dots header-main__navigation">
               <li>
-                <a class="link link-index links" href="./index.html">
+                <a
+                  class="header-main__link header-main__link-index header-main__links"
+                  href="./index.html"
+                >
                   Agencja</a
                 >
                 <div class="is-active"></div>
               </li>
               <li>
-                <a class="link links" href="./portfolio.html">Portfolio</a>
+                <a
+                  class="header-main__link header-main__links"
+                  href="./portfolio.html"
+                  >Portfolio</a
+                >
               </li>
-              <li><a class="link links" href="#">Kontakt</a></li>
+              <li>
+                <a class="header-main__link header-main__links" href="#"
+                  >Kontakt</a
+                >
+              </li>
             </ul>
           </nav>
         </div>
-        <div class="navigation">
-          <ul class="dots contact-items links">
+        <div class="header-main__navigation">
+          <ul class="dots links header-main__contact-list header-main__links">
             <li>
               <a
-                class="links link-contact-header contact"
+                class="contact header-main__links header-main__contact-items"
                 href="mailto:info@example.com"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16px"
                   height="12px"
-                  class="envelope"
+                  class="header-main__envelope"
                 >
                   <use href="./images/icons.svg#icon-envelope-2"></use>
                 </svg>
@@ -57,16 +68,16 @@
               >
             </li>
           </ul>
-          <ul class="dots contact-items links">
+          <ul class="dots header-main__contact-list header-main__links">
             <li>
               <a
-                class="links link-contact-header contact"
+                class="contact header-main__links header-main__contact-items"
                 href="tel:+48111111111"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="10px"
                   height="16px"
-                  class="phone"
+                  class="header-main__phone"
                 >
                   <use href="./images/icons.svg#icon-smartphone-1"></use>
                 </svg>
