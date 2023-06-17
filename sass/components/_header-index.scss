@@ -9,7 +9,7 @@
 .dots {
   list-style: none;
 }
-.is-active {
+.blue-line {
   position: relative;
   top: 20px;
   border-radius: 2px;
@@ -118,8 +118,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__links:hover > .envelope,
-  &__link:hover > .phone {
+  &__links:hover > &__envelope,
+  &__links:hover > &__phone {
     fill: var(--brand-color);
   }
 }
