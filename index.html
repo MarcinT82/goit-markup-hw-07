@@ -52,7 +52,7 @@
           </nav>
         </div>
         <div class="header-main__navigation">
-          <ul class="dots links header-main__contact-list header-main__links">
+          <ul class="dots header-main__contact-list header-main__links">
             <li>
               <a
                 class="contact header-main__links header-main__contact-items"
@@ -564,17 +564,17 @@
       <section>
         <div class="section container">
           <div>
-            <h2 class="fourth-section-heading">Nasi Klienci</h2>
+            <h2 class="section-customers-heading">Nasi Klienci</h2>
           </div>
           <div>
-            <ul class="customers-container">
+            <ul class="customers-list">
               <li>
                 <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="170px"
                     height="92px"
-                    class="customers"
+                    class="customers-list__box"
                   >
                     <use href="./images/icons.svg#icon-Logo"></use>
                   </svg>
@@ -586,7 +586,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     width="170px"
                     height="92px"
-                    class="customers"
+                    class="customers-list__box"
                   >
                     <use href="./images/icons.svg#icon-Logo-1"></use>
                   </svg>
@@ -598,7 +598,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     width="170px"
                     height="92px"
-                    class="customers"
+                    class="customers-list__box"
                   >
                     <use href="./images/icons.svg#icon-Logo-2"></use>
                   </svg>
@@ -610,7 +610,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     width="170px"
                     height="92px"
-                    class="customers"
+                    class="customers-list__box"
                   >
                     <use href="./images/icons.svg#icon-Logo-3"></use>
                   </svg>
@@ -622,7 +622,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     width="170px"
                     height="92px"
-                    class="customers"
+                    class="customers-list__box"
                   >
                     <use href="./images/icons.svg#icon-Logo-4"></use>
                   </svg>
@@ -634,7 +634,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     width="170px"
                     height="92px"
-                    class="customers"
+                    class="customers-list__box"
                   >
                     <use href="./images/icons.svg#icon-Logo-5"></use>
                   </svg>
@@ -645,81 +645,81 @@
         </div>
       </section>
     </main>
-    <footer class="background-footer">
-      <div class="whole-footer container">
-        <div class="footer-container">
-          <div class="home-address">
-            <a class="logotype-webstudio-footer" href="#"
-              ><span class="logotype-web">Web</span>Studio</a
+    <footer class="footer">
+      <div class="container footer__display">
+        <div class="footer__container">
+          <div class="footer__box">
+            <a class="footer__logo" href="#"
+              ><span class="footer__element">Web</span>Studio</a
             >
           </div>
-          <div class="address-footer-links">
-            <address class="address">
+          <div class="footer__address">
+            <address class="footer__details">
               m. Warszawa, Aleje Jerozolimskie 21
               <p>
                 <a
-                  class="links link-contact-footer"
+                  class="footer__links footer__contact"
                   href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </p>
               <p>
-                <a class="links link-contact-footer" href="tel:+48111111111"
+                <a class="footer__links footer__contact" href="tel:+48111111111"
                   >+48 111 111 111</a
                 >
               </p>
             </address>
           </div>
         </div>
-        <div class="join-us-text-icons">
-          <div class="social-icons-bottom">
-            <p class="join-us">Dołącz do nas</p>
+        <div class="icons-block">
+          <div class="icons-block__heading">
+            <p class="icons-block__text">Dołącz do nas</p>
           </div>
-          <div class="icons-bottom-container">
-            <ul class="contact-sprites-bottom">
+          <div>
+            <ul class="icons-block__list">
               <li>
-                <div class="circle-bottom">
+                <div class="icons-block__items">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
                     height="20px"
-                    class="social-circles-bottom"
+                    class="icons-block__social-media"
                   >
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </div>
               </li>
               <li>
-                <div class="circle-bottom">
+                <div class="icons-block__items">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
                     height="20px"
-                    class="social-circles-bottom"
+                    class="icons-block__social-media"
                   >
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
                 </div>
               </li>
               <li>
-                <div class="circle-bottom">
+                <div class="icons-block__items">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
                     height="20px"
-                    class="social-circles-bottom"
+                    class="icons-block__social-media"
                   >
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </div>
               </li>
               <li>
-                <div class="circle-bottom">
+                <div class="icons-block__items">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
                     height="20px"
-                    class="social-circles-bottom"
+                    class="icons-block__social-media"
                   >
                     <use href="./images/icons.svg#icon-linkedin2"></use>
                   </svg>
@@ -729,26 +729,28 @@
           </div>
         </div>
         <div class="footer-form">
-          <div><p class="sign-up">Zapisz się do newslettera</p></div>
-          <div class="form-container">
+          <div>
+            <p class="footer-form__text">Zapisz się do newslettera</p>
+          </div>
+          <div class="footer-form__container">
             <form name="signup-form">
               <label for="email"></label>
-              <div class="input-and-button">
+              <div class="footer-form__input-button">
                 <input
                   type="email"
                   name="email"
                   id="email"
                   placeholder="E-mail"
-                  class="input-background"
+                  class="footer-form__input"
                   required
                 />
-                <button type="submit" class="submit-newsletter">
+                <button type="submit" class="footer-form__button">
                   Zapisz się
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24px"
                     height="24px"
-                    class="icon-send"
+                    class="footer-form__icon"
                   >
                     <use href="./images/icons.svg#icon-icon-send"></use>
                   </svg>
@@ -761,62 +763,62 @@
     </footer>
 
     <div class="modal is-hidden" data-modal>
-      <div class="pop-up-window">
-        <button class="x-button" data-modal-close>X</button>
-        <div class="form-modal-container">
-          <form name="modal-form" class="modal-form">
-            <p class="provide-data">Zostaw swoje dane w formularzu poniżej</p>
-            <div role="group" class="view-form-first">
-              <label for="name-form" class="username-details">Imię</label>
+      <div class="modal__pop-up">
+        <button class="modal__button-close" data-modal-close>X</button>
+        <div class="modal__container">
+          <form name="modal-form">
+            <p class="modal__label">Zostaw swoje dane w formularzu poniżej</p>
+            <div role="group" class="modal__main-inputs">
+              <label for="name-form" class="modal__username">Imię</label>
               <input
                 id="name-form"
                 type="text"
                 name="name"
-                class="username-field"
+                class="modal__field"
                 required
               />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18px"
                 height="18px"
-                class="icon-username"
+                class="modal__icon-user"
               >
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
 
-              <label for="phone-form" class="username-details">Telefon</label>
+              <label for="phone-form" class="modal__username">Telefon</label>
               <input
                 id="phone-form"
                 type="tel"
                 name="phone"
-                class="username-field"
+                class="modal__field"
                 required
               />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18px"
                 height="18px"
-                class="icon-phone"
+                class="modal__icon-phone"
               >
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
-              <label for="email-form" class="username-details">Email</label>
+              <label for="email-form" class="modal__username">Email</label>
               <input
                 id="email-form"
                 type="email"
                 name="email"
-                class="username-field"
+                class="modal__field"
                 required
               />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18px"
                 height="18px"
-                class="icon-email"
+                class="modal__icon-email"
               >
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
-              <label for="comment-form" class="username-details"
+              <label for="comment-form" class="modal__username"
                 >Komentarz
               </label>
               <textarea
@@ -824,23 +826,23 @@
                 name="comment"
                 rows="10"
                 placeholder="Wprowadź tekst"
-                class="username-field-textarea comment-area"
+                class="modal__textarea"
               ></textarea>
             </div>
-            <div role="group" class="form-bottom-options">
-              <div class="mandatory-check">
+            <div role="group" class="modal__bottom">
+              <div class="modal__checkbox">
                 <input
                   id="checkbox"
                   type="checkbox"
                   name="terms-and-policy"
-                  class="checkbox-empty-hidden"
+                  class="modal__checkbox-hidden"
                   required
                 />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16px"
                   height="15px"
-                  class="unticked-icon"
+                  class="modal__checkbox-unticked"
                 >
                   <use href="./images/icons.svg#icon-checkbox-unchecked"></use>
                 </svg>
@@ -848,19 +850,21 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="16px"
                   height="15px"
-                  class="ticked-icon"
+                  class="modal__checkbox-ticked"
                 >
                   <use href="./images/icons.svg#icon-checkbox-checked"></use>
                 </svg>
-                <label for="checkbox" class="terms-policy"
+                <label for="checkbox" class="modal__policy"
                   >Oświadczam iż akceptuję
-                  <a href="#" class="terms">Regulamin</a> i
-                  <a href="#" class="terms">Politykę Prywatności.</a></label
+                  <a href="#" class="modal__terms">Regulamin</a> i
+                  <a href="#" class="modal__terms"
+                    >Politykę Prywatności.</a
+                  ></label
                 >
               </div>
 
-              <div class="button-send-form">
-                <button type="submit" class="button-to-submit">Wyślij</button>
+              <div class="modal__button-box">
+                <button type="submit" class="modal__submit">Wyślij</button>
               </div>
             </div>
           </form>
