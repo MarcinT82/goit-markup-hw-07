@@ -2,6 +2,11 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 0;
+}
 .section-index {
   max-width: 1600px;
   background-image: linear-gradient(
@@ -19,17 +24,17 @@
     padding-bottom: 40px;
   }
   &__header {
-    max-width: 1600px;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/4.1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin: 0 auto;
+    width: 696px;
   }
   &__box {
     display: flex;
