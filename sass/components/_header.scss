@@ -73,6 +73,12 @@
   }
   &__navigation {
     display: flex;
+    padding-top: 15px;
+    padding-left: 90px;
+  }
+  &__navigation-contact {
+    display: flex;
+    padding-right: 40px;
   }
   &__link {
     font-style: normal;

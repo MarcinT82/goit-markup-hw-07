@@ -1,5 +1,5 @@
 .footer-form {
-  padding: 67px 0 0px 0px;
+  padding: 50px 0 0px 0px;
   margin: 0;
   &__text {
     width: 207px;
@@ -65,5 +65,8 @@
     position: relative;
     top: 5px;
     left: 20px;
+  }
+  &__label {
+    padding-bottom: 12px;
   }
 }

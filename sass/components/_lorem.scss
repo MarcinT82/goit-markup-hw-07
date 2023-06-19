@@ -21,7 +21,7 @@
     width: 270px;
     background-color: var(--less-white);
     border-radius: 4px;
-    padding: 25px 102.34px;
+    padding: 25px 100px;
   }
   &__box-border {
     display: block;
@@ -36,6 +36,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     width: 270px;
+    padding: 30px 0 15px 0;
   }
   &__text {
     font-family: "Roboto";
@@ -56,7 +57,7 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 10px 41px 10px 41px;
+  padding: 50px 41px 50px 41px;
 }
 .images-list {
   display: flex;
